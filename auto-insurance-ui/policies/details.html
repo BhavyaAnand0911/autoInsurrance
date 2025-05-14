@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Details - Auto Insurance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                Auto Insurance
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../policies/list.html"><i class="fas fa-file-contract me-1"></i>Policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-clipboard-list me-1"></i>Claims</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-credit-card me-1"></i>Payments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-headset me-1"></i>Support</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-user-circle me-1"></i>John Doe
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="../auth/profile.html"><i class="fas fa-user me-2"></i>Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../auth/login.html"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-file-contract me-2"></i>Policy Details</h1>
+            <div>
+                <a href="list.html" class="btn btn-outline-secondary me-2">
+                    <i class="fas fa-arrow-left me-2"></i>Back to Policies
+                </a>
+                <a href="edit.html" class="btn btn-warning">
+                    <i class="fas fa-edit me-2"></i>Edit
+                </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Policy Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>Policy Number</h6>
+                                <p>AIS-1001</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Status</h6>
+                                <p><span class="badge bg-success">Active</span></p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>Start Date</h6>
+                                <p>2023-01-15</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>End Date</h6>
+                                <p>2024-01-15</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>Coverage Type</h6>
+                                <p>Comprehensive</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Coverage Amount</h6>
+                                <p>$50,000</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>Premium Amount</h6>
+                                <p>$120.00/month</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Payment Method</h6>
+                                <p>Credit Card (•••• •••• •••• 4242)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Vehicle Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>Make</h6>
+                                <p>Toyota</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Model</h6>
+                                <p>Camry</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>Year</h6>
+                                <p>2020</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Color</h6>
+                                <p>Silver</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6>VIN</h6>
+                                <p>JT2BF22K3W0123456</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>License Plate</h6>
+                                <p>ABC1234</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Policyholder</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Profile" width="80">
+                        <h5>John Doe</h5>
+                        <p class="text-muted">john.doe@example.com</p>
+                        <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Quick Actions</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-primary">
+                                <i class="fas fa-file-invoice-dollar me-2"></i>Generate Invoice
+                            </button>
+                            <button class="btn btn-outline-success">
+                                <i class="fas fa-sync-alt me-2"></i>Renew Policy
+                            </button>
+                            <button class="btn btn-outline-danger">
+                                <i class="fas fa-ban me-2"></i>Cancel Policy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Policy Documents</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Document</th>
+                                <th>Type</th>
+                                <th>Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Policy Agreement</td>
+                                <td>Contract</td>
+                                <td>2023-01-15</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">
+                                        <i class="fas fa-download me-2"></i>Download
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Payment Receipt</td>
+                                <td>Invoice</td>
+                                <td>2023-01-15</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">
+                                        <i class="fas fa-download me-2"></i>Download
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
