@@ -27,7 +27,4 @@ $(document).ready(function() {
     $('.delete-btn').click(function() {
         return confirm('Are you sure you want to delete this item?');
     });
-
-    $("#navbar-container").load("../partials/navbar.html");
-    $("#footer-container").load("../partials/footer.html");
 });
